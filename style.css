@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #0d2020;
+}
+body {
+  text-align: center;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  border-bottom: 3px solid rgb(110, 110, 110);
+  background-color: white;
+  box-shadow: 0 10px 10px rgb(187, 179, 179);
+}
+.navbar a {
+  color: white;
+  font-size: 40px;
+  font-family: "Helvetica Neue";
+  text-shadow: 0 0 5px #c7ffed;
+  font-style: italic;
+}
+
+main {
+  margin-top: 8rem;
+}
+
+.input-group-text {
+  background-color: #008f8c;
+  font-weight: bold;
+  color: white;
+  box-shadow: inset 0 0 5px 5px #015958;
+}
+.input-group .btn {
+  font-weight: bold;
+  color: white;
+  text-shadow: 0 0 5px #015958;
+  border: 1px solid white;
+  box-shadow: inset 0 0 2px 2px #015958;
+}
+
+.meals-div {
+  max-width: 1400px;
+}
+.card {
+  box-shadow: 0 0 5px 5px #017775;
+}
+
+.card-body h5 {
+  color: white;
+}
+
+.modal {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.modal-content {
+  box-shadow: 0 0 10px 10px #017775;
+  color: rgb(255, 255, 255) !important;
+}
+
+.modal-title {
+  color: #f8ea24;
+  font-size: 40px;
+  font-family: "Helvetica Neue";
+  text-shadow: 0 0 3px #c7ffed;
+  font-style: italic;
+}
+
+.modal-footer #close {
+  background-color: #d92525;
+  font-weight: bold;
+  color: white;
+  text-shadow: 0 0 5px #015958;
+}
+
+.modal-footer #understood {
+  background-color: #daaa27;
+  font-weight: bold;
+  color: white;
+  text-shadow: 0 0 5px #015958;
+}
